@@ -1,0 +1,350 @@
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+header {
+    display:flex;
+    justify-content: center;
+    height: 130px;
+    width: 100%;
+    border-bottom: 2px solid #860000;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+nav .active a,
+nav a:hover {
+    background-color: #860000;
+    color: #ffffff;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/PostMalone.png');
+    background-position: center;
+    background-size:cover;
+    height: 600px;
+}
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1 {
+    color: #FFFFFF;
+    font-size: 63px;
+    text-shadow: 0px 1px 0px #911c1c;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+.banner_headline h2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    text-shadow: 0px 1px 0px #911c1c;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 25px;
+}
+.banner_border {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1893px;
+    height: 0px;
+    left: 0px;
+    top: 723px;
+    border: 5px solid #860000;
+}
+.content column {
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1440px;
+    height: 2215px;
+    left: 210px;
+    top: 733px;
+    border-radius: 15px;
+    background-color: #000000;
+    padding: 15px;
+}
+.content_title h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.content_bar1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    border: 2px solid #860000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content_bar2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50px;
+    top: 60px;
+    border: 2px solid #860000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content_bar3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50px;
+    top: 60px;
+    border: 2px solid #860000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content_subtitle h2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.content_desc p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#photo_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    margin-left: 225px;
+    margin-top: 1600px;
+    background-color: #000000;
+}
+.photo_content_1 {
+    position: absolute;
+    width: 308px;
+    height: 370px;
+    margin-left: 200px;
+    margin-top: 112px;
+}
+.photo_content_2 {
+    position: absolute;
+    width: 308px;
+    height: 370px;
+    margin-left: 925px;
+    margin-top: 112px;
+}
+.photo_1,
+.photo_2 {
+    display: flex;
+    background-position: center;
+    background-size:cover;
+    width: 308;
+    height: 376;
+}
+.ph_1,
+.ph_2 {
+    margin: 10px;
+    padding: 0px;
+    font-size: 18px;
+    color: #CCC;
+    letter-spacing: 1px;
+}
+
+.content_bar_photo_1 {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 10px;
+    top: 435px;
+    border: 2px solid #860000;
+}
+.content_bar_photo_2 {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 10px;
+    top: 435px;
+    border: 2px solid #860000;
+}
+.content_subtitle_2p {
+    position: absolute;
+    width: 1100px;
+    height: 680px;
+    left: 170px;
+    top: 2000px;
+}
+.content_desc_2p {
+    position: absolute;
+    width: 1100px;
+    height: 680px;
+    left: 170px;
+    top: 2000px;
+}
+.column_2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1440px;
+    height: 560px;
+    margin-left: 0px;
+    margin-top: 2255px;
+    background-color: #000000;
+}
+
+#banner_contain_2 {
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    top: 2846px;
+}
+.banner_2 {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/PostMalone_2.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 600px;
+}
+.banner_border_2 {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 600px;
+    border-bottom: 5px solid #860000;
+}
+.column_3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1440px;
+    height: 2865px;
+    margin-left: 0px;
+    margin-top: 3450px;
+    background-color: #23807b;
+}
+
+.content_bar_gallery {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 15px;
+    top: 1948px;
+    border: 2px solid #860000;
+}
+.container_g {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    margin-top: 55px;
+    background-color: #000000;
+}
+.div1 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+.div2 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+.div3 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+.div4 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+
+.div5 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+.div6 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+.div7 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+.div8 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #943838;
+}
+    /* DESENVOLVENDO UMA SECTION DE GALLERY /*
